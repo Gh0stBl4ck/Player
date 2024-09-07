@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="fotos/icon.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Player Spotify</title>
+</head>
+
+<body>
+    <img src="fotos/anny2.jpg">
+    <div class="descricao">
+        <h2>Nome da música</h2>
+        <i>Ajax</i>
+        <!-- Botão de like com ícone -->
+        <button class="botao-like">
+            <i class="far fa-heart"></i> <!-- Ícone de coração vazio -->
+        </button>
+    </div>
+
+    <div class="duracao">
+        <div class="barra">
+            <!-- Barra de progresso modificada para usar <input type="range"> -->
+            <input type="range" id="progressBar" value="0" min="0" max="100">
+            
+        </div>
+        <div class="tempo">
+            <p class="inicio">0:00</p>
+            <p class="fim">2:48</p>
+        </div>
+    </div>
+
+    <div class="player">
+        <i class="fas fa-step-backward setas anterior"></i>
+        <i class="fas fa-play-circle botao-play"></i>
+        <i class="fas fa-pause-circle botao-pause" style="display:none;"></i>
+        <i class="fas fa-step-forward setas proxima"></i>
+    </div>
+
+    <audio src="sons/Anny - Doppelgänger ft. @M4rkim.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>

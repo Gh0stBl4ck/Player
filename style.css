@@ -1,0 +1,109 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(175, 5, 175);
+    color: #ddd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 2px 20px cyan;
+}
+
+.descricao {
+    width: 300px;
+    position: relative;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.duracao {
+    width: 300px;
+    margin-top:15 px;
+    #progressBar{
+        width: 300px;
+        height: 10px;
+    
+    }
+}
+
+
+.tempo {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.player {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.botao-play, .botao-pause {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.setas {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.botao-pause {
+    display: none;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px; /* Margem para separar o botão do tempo de duração */
+}
+
+.botao-like {
+    position: absolute;
+    top: 80%; /* Ajusta a posição vertical para mais abaixo */
+    right: 0;
+    transform: translateY(-50%); /* Centraliza verticalmente em relação ao contêiner pai */
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espaço entre o ícone e o texto */
+}
+
+.botao-like i {
+    color: #444;  /* Cor padrão do ícone */
+}
+
+.botao-like i.fas {
+    color: #e74c3c;  /* Cor do coração cheio */
+}
+
+.botao-like:hover i {
+    color: #e74c3c;  /* Cor ao passar o mouse */
+}
+
+.like-text {
+    font-size: 16px; /* Tamanho do texto */
+    color: #444;  /* Cor do texto padrão */
+}
+
+.botao-like.liked .like-text {
+    color: #e74c3c;  /* Cor do texto quando curtido */
+}
