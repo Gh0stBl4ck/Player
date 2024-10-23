@@ -12,7 +12,7 @@ Player de Música
 <br>
 
 <p align="center">
-  <img alt="Player de Música" src=".github/Player2.png" width="100%">
+  <img alt="Player de Música" src=".github/Player2.PNG" width="100%">
 </p>
 
 ## 🚀 Tecnologias
