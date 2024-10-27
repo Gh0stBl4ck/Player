@@ -7,6 +7,7 @@ Player de Música
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -29,6 +30,10 @@ Reproduzir e pausar faixas com um clique;
 Curta suas músicas favoritas com o botão de like;
 Visual clean e moderno, garantindo uma navegação fácil e imersiva.
 Foi uma excelente oportunidade para aprimorar minhas habilidades de desenvolvimento web.
+
+## 🔗 Deploy
+
+Link do Projeto: https://player-three-eta.vercel.app/
 
 ---
 
